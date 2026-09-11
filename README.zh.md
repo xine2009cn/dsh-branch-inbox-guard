@@ -1,5 +1,7 @@
 # dsh-branch-inbox-guard
 
+[English](README.md) | 中文
+
 [![Awesome DSH Plugin](https://awesome-dsh-plugin.com/badge.svg)](https://awesome-dsh-plugin.com)
 
 阻止 DSH 分支会话继承父会话未投递的排队提问。从某个会话分支出来后，在分支里输入的问题会被**立刻执行**，

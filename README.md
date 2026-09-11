@@ -1,5 +1,7 @@
 # dsh-branch-inbox-guard
 
+English | [中文](README.zh.md)
+
 [![Awesome DSH Plugin](https://awesome-dsh-plugin.com/badge.svg)](https://awesome-dsh-plugin.com)
 
 Keeps a DSH fork child from inheriting its parent's queued prompts. Branch a session, type a question,
