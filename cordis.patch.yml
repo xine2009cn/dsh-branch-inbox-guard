@@ -1,0 +1,6 @@
+# dsh-branch-inbox-guard bundle patch
+# 一个宿主侧 row：守卫在 agent/created 时清理"fork 父会话遗留的待执行提问"。
+# 纯宿主插件（没有客户端半），装完重启 DSH 即生效。
+- insert:
+    - id: branch-inbox-guard
+      name: 'dsh-branch-inbox-guard'

@@ -1,0 +1,55 @@
+{
+  "name": "dsh-branch-inbox-guard",
+  "version": "0.1.0",
+  "description": "DeepSeek Harness (DSH) plugin: removes the queued prompts a fork child inherits from its parent, so a new branch runs the prompt you type instead of the parent's next one.",
+  "type": "module",
+  "license": "MIT",
+  "author": "YOUR_NAME (https://github.com/YOUR_GH_USER)",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "cordis",
+    "cordis-plugin",
+    "session",
+    "fork",
+    "inbox",
+    "agent"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YOUR_GH_USER/dsh-branch-inbox-guard.git"
+  },
+  "homepage": "https://github.com/YOUR_GH_USER/dsh-branch-inbox-guard#readme",
+  "bugs": "https://github.com/YOUR_GH_USER/dsh-branch-inbox-guard/issues",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "README.md",
+    "README.zh.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node test/guard.test.mjs"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "compatibility": {
+      "dsh": ">=0.1.5-rc.1"
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
