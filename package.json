@@ -4,7 +4,7 @@
   "description": "DeepSeek Harness (DSH) plugin: removes the queued prompts a fork child inherits from its parent, so a new branch runs the prompt you type instead of the parent's next one.",
   "type": "module",
   "license": "MIT",
-  "author": "YOUR_NAME (https://github.com/YOUR_GH_USER)",
+  "author": "YOUR_NAME (https://github.com/xine2009cn)",
   "keywords": [
     "deepseek-harness",
     "dsh",
@@ -18,10 +18,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/YOUR_GH_USER/dsh-branch-inbox-guard.git"
+    "url": "git+https://github.com/xine2009cn/dsh-branch-inbox-guard.git"
   },
-  "homepage": "https://github.com/YOUR_GH_USER/dsh-branch-inbox-guard#readme",
-  "bugs": "https://github.com/YOUR_GH_USER/dsh-branch-inbox-guard/issues",
+  "homepage": "https://github.com/xine2009cn/dsh-branch-inbox-guard#readme",
+  "bugs": "https://github.com/xine2009cn/dsh-branch-inbox-guard/issues",
   "main": "index.js",
   "exports": {
     ".": "./index.js",

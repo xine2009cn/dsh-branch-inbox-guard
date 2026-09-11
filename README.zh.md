@@ -54,10 +54,10 @@ DSH 的分支会话是一个 **fork 子会话**：它的日志以父会话"已�
 dsh plugin --profile web add dsh-branch-inbox-guard
 
 # 从 GitHub 安装
-dsh plugin --profile web add github:YOUR_GH_USER/dsh-branch-inbox-guard
+dsh plugin --profile web add github:xine2009cn/dsh-branch-inbox-guard
 
 # 从 Release 附件安装
-dsh plugin --profile web add https://github.com/YOUR_GH_USER/dsh-branch-inbox-guard/releases/latest/download/dsh-branch-inbox-guard-0.1.0.tgz
+dsh plugin --profile web add https://github.com/xine2009cn/dsh-branch-inbox-guard/releases/latest/download/dsh-branch-inbox-guard-0.1.0.tgz
 
 # 从本地文件 / 目录安装
 dsh plugin --profile web add ./dsh-branch-inbox-guard-0.1.0.tgz

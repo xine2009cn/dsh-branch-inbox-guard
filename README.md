@@ -59,10 +59,10 @@ in it survives.
 dsh plugin --profile web add dsh-branch-inbox-guard
 
 # from GitHub
-dsh plugin --profile web add github:YOUR_GH_USER/dsh-branch-inbox-guard
+dsh plugin --profile web add github:xine2009cn/dsh-branch-inbox-guard
 
 # from the release tarball
-dsh plugin --profile web add https://github.com/YOUR_GH_USER/dsh-branch-inbox-guard/releases/latest/download/dsh-branch-inbox-guard-0.1.0.tgz
+dsh plugin --profile web add https://github.com/xine2009cn/dsh-branch-inbox-guard/releases/latest/download/dsh-branch-inbox-guard-0.1.0.tgz
 
 # from a local file / directory
 dsh plugin --profile web add ./dsh-branch-inbox-guard-0.1.0.tgz
